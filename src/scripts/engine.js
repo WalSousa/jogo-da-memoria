@@ -51,6 +51,10 @@ function checkMatch() {
 
     openCards = [];
     if (document.querySelectorAll(".boxMatch").length === emojis.length) {
-        alert("Você venceu !");
+        Swal.fire({
+            title: "Bom trabalho!",
+            text: "Você Venceu!",
+            icon: "success"
+          });
     }
 }

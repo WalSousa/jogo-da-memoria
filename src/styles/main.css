@@ -5,6 +5,7 @@ body {
     min-height: 100vh;
     background: #fc1e8a;
     user-select: none;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
 .container {
@@ -48,12 +49,12 @@ h2{
 
 }
 .game{
-    width: 480px;
-    height: 480px;
+    width: 430px;
+    height: 430px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    transform-style: preserve-3d;
+    transform-style: preserve-2d;
     perspective: 500px;
 }
 .item {
